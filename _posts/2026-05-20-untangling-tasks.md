@@ -5,7 +5,7 @@ date: 2026-05-20
 summary: "We explore model thinking by training a model to do two tasks, and then intervene in the model's brain, disabling the task we choose while leaving the other untouched."
 ---
 
-[← Back to Blog](/chiril-blog/blog/)
+[← Back to Blog](/blog/)
 
 # Untangling Tasks in a Toy Transformer
 

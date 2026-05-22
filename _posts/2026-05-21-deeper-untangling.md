@@ -5,7 +5,7 @@ date: 2026-05-21
 summary: "This is a sister article to 'Untangling Tasks in a Toy Transformer'. This article is more technically complete and provides some of the motivations for certain architectural decisions. This serves as a deeper dive to someone more familiar with the traditional aspects of machine learning."
 ---
 
-[← Back to Blog](/chiril-blog/blog/)
+[← Back to Blog](/blog/)
 
 # Deeper Dive: Untangling Tasks in a Toy Transformer 
 
@@ -13,7 +13,7 @@ Transformer models are notoriously black-box, making it difficult to see how a m
 
 To play with this idea, we train a toy transformer capable of two tasks: addition, and concatenation, and set out with a simple goal: to disable or significantly hinder the model's capability to do one task, but not the other. By using [Sparse Autoencoders](https://arxiv.org/pdf/2309.08600) to induce sparsity, followed by ablation with PyTorch hooks, we successfully and significantly remove the function of our choosing, while leaving the unselected function almost entirely unaffected.
 
-This is a sister article to "[Untangling Tasks in a Toy Transformer](https://chirilcalin.github.io/chiril-blog/2026/05/20/untangling-tasks.html)". This article is more technically complete and provides some of the motivations for certain architectural decisions. This serves as a deeper dive to someone more familiar with the traditional aspects of machine learning. As with the first article, [the code is fully available on GitHub](https://github.com/chirilcalin/untangling_tasks).
+This is a sister article to "[Untangling Tasks in a Toy Transformer](https://chirilcalin.github.io/2026/05/20/untangling-tasks.html)". This article is more technically complete and provides some of the motivations for certain architectural decisions. This serves as a deeper dive to someone more familiar with the traditional aspects of machine learning. As with the first article, [the code is fully available on GitHub](https://github.com/chirilcalin/untangling_tasks).
 
 ### Configuration & Setup: 
 
