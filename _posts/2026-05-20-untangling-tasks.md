@@ -31,6 +31,11 @@ Concatenation: 1 C 1 = 11
 
 Then, we will take a peek inside the model’s brain, and attempt to surgically disable the model’s ability to do one task while preserving its ability to do the other.
 
+
+![Alt text]({{ site.baseurl }}/assets/images/blogpost1/architectdrawing.png){: style="max-width: 700px; display: block; margin: 0 auto;"}
+
+
+
 To follow along, all the code, including a walkthrough notebook is [made available on GitHub](https://github.com/chirilcalin/untangling_tasks). For a deeper dive behind the architecture decisions and a more technical walkthrough, please refer to the Deeper Dive: Untangling Tasks in a Toy Transformer article. The examples featured within this article have been simplified for readability and digestibility.
 
 
