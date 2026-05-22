@@ -16,6 +16,6 @@ To the point of machine learning, my work is generally centered around the creat
 My interest in interpretability is much broader, and I work to understand model thinking both within biology and in general. If we can understand the way our models think and structure concepts, we should be able to meaningfully steer our models towards desired outputs and away from harmful ones. I aim to share this work primarily in the form of accessible blog posts, so that people will be able to follow along and quickly iterate on the work.
 
 
-You can find my code on [GitHub](https://github.com/chirilcalin). If you have any questions or comments, please reach out to me at *chirilcalin_7@gmail.com*. 
+You can find my code on [GitHub](https://github.com/chirilcalin). If you have any questions or comments, please reach out to me at **chirilcalin7@gmail.com**. 
 
 
