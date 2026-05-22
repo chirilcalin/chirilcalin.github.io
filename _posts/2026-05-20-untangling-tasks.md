@@ -36,7 +36,7 @@ Then, we will take a peek inside the model’s brain, and attempt to surgically 
 
 
 
-To follow along, all the code, including a walkthrough notebook is [made available on GitHub](https://github.com/chirilcalin/untangling_tasks). For a deeper dive behind the architecture decisions and a more technical walkthrough, please refer to the Deeper Dive: Untangling Tasks in a Toy Transformer article. The examples featured within this article have been simplified for readability and digestibility.
+To follow along, all the code, including a walkthrough notebook is [made available on GitHub](https://github.com/chirilcalin/untangling_tasks). For a deeper dive behind the architecture decisions and a more technical walkthrough, please refer to the [Deeper Dive: Untangling Tasks in a Toy Transformer](https://chirilcalin.github.io/2026/05/21/deeper-untangling.html) article. The examples featured within this article have been simplified for readability and digestibility.
 
 
 ****
