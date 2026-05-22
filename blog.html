@@ -1,0 +1,24 @@
+---
+layout: default
+title: Blog
+permalink: /blog/
+---
+<h1>Blog</h1>
+
+<p>Thoughts, tutorials, and notes on things I am learning.</p>
+
+<ul class="post-list">
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url | relative_url }}">Post {{ forloop.rindex }}: {{ post.title }}</a>
+      <span class="post-meta">{{ post.date | date: "%B %d, %Y" }}</span>
+      <p>
+        {% if post.summary %}
+          {{ post.summary }}
+        {% else %}
+          {{ post.excerpt | strip_html | truncatewords: 30 }}
+        {% endif %}
+      </p>
+    </li>
+  {% endfor %}
+</ul>

@@ -1,0 +1,28 @@
+title: Chiril Calin
+email: chirilcalin_7@gmail.com
+description: >-
+  Personal portfolio and developer blog.
+url: "https://chirilcalin.github.io"
+github_username: chirilcalin
+linkedin_username: chirilcalin
+
+# Exclude unnecessary files from being built
+exclude:
+  - README.md
+  - .gitignore
+
+#Actual config settings
+#Jekyll colorful code highlights,
+highlighter: rouge
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+image: /assets/preview-image.png
+
+social:
+  links: 
+    - https://github.com/chirilcalin/
+    - https://www.linkedin.com/in/chirilcalin/
+    
