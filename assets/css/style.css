@@ -87,6 +87,10 @@ footer {
   text-align: center;
 }
 
+.obfuscate {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
 
 .highlight table td { padding: 5px; }
 .highlight table pre { margin: 0; }
@@ -168,9 +172,4 @@ footer {
 }
 .highlight .ss {
   color: #a6e22e;
-}
-
-.obfuscate {
-  unicode-bidi: bidi-override;
-  direction: rtl;
 }
