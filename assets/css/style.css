@@ -169,3 +169,8 @@ footer {
 .highlight .ss {
   color: #a6e22e;
 }
+
+.obfuscate {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
