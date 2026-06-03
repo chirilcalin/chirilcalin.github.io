@@ -18,7 +18,26 @@ My interest in interpretability is much broader, and I work to understand model 
 
 You can find my code on [GitHub](https://github.com/chirilcalin). If you have any questions or comments, please reach out to me at 
 
-<span class="obfuscate">moc.liamg@7nilaclirihc</span>
+<div class="mailform-bottrap" aria-hidden="true">
+  <p>Contact me at <a href="mailto:chiril@chirilcalin.io">chiril@chirilcalin.io</a></p>
+  
+  <form action="mailto:chiril@chirilcalin.io" method="POST">
+    <label>Your email: <input type="email" name="email"></label>
+    <label>Your message: <textarea name="message"></textarea></label>
+    <button type="submit">Send Message</button>
+  </form>
+</div>
+
+<div id="real-email-container">
+  <noscript>chirilcalin7 [at] gmail [dot] com</noscript> 
+</div>
+
+<script>
+  var user = "chirilcalin7";
+  var domain = "gmail.com";
+  
+  document.getElementById("real-email-container").innerHTML = user + "@" + domain;
+</script>
 
 
 
