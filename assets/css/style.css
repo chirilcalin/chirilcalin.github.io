@@ -87,16 +87,6 @@ footer {
   text-align: center;
 }
 
-
-.mailform-bottrap {
-  position: absolute;
-  left: -5000px;
-  top: -5000px;
-  height: 0;
-  width: 0;
-  overflow: hidden;
-}
-
 .highlight table td { padding: 5px; }
 .highlight table pre { margin: 0; }
 .highlight, .highlight .w {

@@ -18,7 +18,7 @@ My interest in interpretability is much broader, and I work to understand model 
 
 You can find my code on [GitHub](https://github.com/chirilcalin). If you have any questions or comments, please reach out to me at 
 
-<div class="mailform-bottrap" aria-hidden="true">
+<div style="position: absolute; left: -5000px; top: -5000px; height: 0; width: 0; overflow: hidden;" aria-hidden="true">
   <p>Contact me at <a href="mailto:chiril@chirilcalin.io">chiril@chirilcalin.io</a></p>
   
   <form action="mailto:chiril@chirilcalin.io" method="POST">
@@ -38,6 +38,3 @@ You can find my code on [GitHub](https://github.com/chirilcalin). If you have an
   
   document.getElementById("real-email-container").innerHTML = user + "@" + domain;
 </script>
-
-
-
