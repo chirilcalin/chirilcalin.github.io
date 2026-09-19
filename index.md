@@ -9,7 +9,7 @@ This site is dedicated to any interesting publications or blog posts I do!
 ## Featured Projects / Publications
 
 ### [EpiTune: An Accurate Epitope Prediction Model with Mechanistic Insights](https://www.biorxiv.org/content/10.64898/2026.08.12.744310v1)(BioRxiv link, publication pending)
-In this publication, we create a state-of-the-art model for epitope prediction by fine-tuning ESM-2. We then explore ESM-2's generalizability with RoPE for the task, making arguments from attention and attribution. We also demonstrate that conformational and linear epitope prediction are actually separate tasks, and should be treated as such by the epitope prediction literature. 
+In this publication, we create a state-of-the-art model for epitope prediction by fine-tuning ESM-2. We then explore ESM-2's generalizability with RoPE for the task, making arguments from attention and attribution. We also demonstrate that conformational and linear epitope prediction are actually separate tasks, and should be treated as such by the epitope prediction literature. Code is available on my [Pfizer Opensource repo](https://github.com/pfizer-opensource/EpiTune).
 
 ### [Untangling Tasks in a Toy Transformer](https://github.com/chirilcalin/untangling_tasks)
 This project explores training a model for two simple tasks: summation, and concatenation, and investigates how we can intervene in our model's thinking to selectively disable one task, but not the other. 
